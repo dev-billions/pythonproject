@@ -3,6 +3,6 @@ for item in My_list:
     clean_item = item.replace(" ", " ").replace(",", "").lower()
     reversed_item = clean_item[::-1]
     if clean_item == reversed_item:
-        print(item, "is Palindrome.")
+        print(item, "is palindrome.")
     else:
         print(item, "is not a palindrome.")
