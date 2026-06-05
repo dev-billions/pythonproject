@@ -1,4 +1,4 @@
-My_list = ["mummy", "hannah", "murder for a jar of red rum", "mom", "seagull", "tomato", "nolemonnomelon", "some men interpret nine memos", "madam"]
+My_list = ["mummy", "hannah", "murder for a jar of red rum", "mom", "sea gull", "tomato", "nolemonnomelon", "some men interpret nine memos", "madam"]
 for item in My_list:
     clean_item = item.replace(" ", " ").replace(",", "").lower()
     reversed_item = clean_item[::-1]
